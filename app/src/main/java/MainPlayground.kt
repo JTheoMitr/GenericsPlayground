@@ -1,7 +1,7 @@
 import data.*
 
 
-public fun main() {
+ fun main() {
 
     val dog1 = Dog(id = 0, name = "Swift", furColor = FurColor.BLACK)
     val dog2 = Dog(id = 1, name = "Stu", furColor = FurColor.PATCHED)

@@ -10,6 +10,7 @@ import data.*
 
     class Cage<T : Animal>(var animal: T, val size: Double)
 
+    var animal = Dog(id = 0, name = "Doglin", furColor = FurColor.BLACK)
     val dog = Dog(id = 1, name = "Stu", furColor = FurColor.PATCHED)
     val cat = Cat(id = 4, name = "Peter", eyesColor = EyesColor.GREEN)
     val cageDog: Cage<Dog> = Cage(animal = dog, size = 6.0)
